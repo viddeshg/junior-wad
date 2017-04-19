@@ -8,6 +8,7 @@ jQuery(document).ready(function ($) {
     $menu.toggleClass('is-active');
   });
 
+    $('.modal').modal();
   
 });
 
