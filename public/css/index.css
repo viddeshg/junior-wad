@@ -6,6 +6,8 @@ body {
 
 nav {
   background-color: #673AB7; }
+  nav ul a {
+    font-family: 'Julius Sans One'; }
 
 footer {
   background-color: #673AB7 !important;
