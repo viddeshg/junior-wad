@@ -1,4 +1,20 @@
+html,
 body {
-  color: green; }
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+nav {
+  background-color: #673AB7; }
+
+footer {
+  background-color: #673AB7 !important;
+  bottom: 0 !important;
+  position: absolute;
+  width: 100%;
+  padding-top: 5px !important; }
+  footer a {
+    color: white;
+    letter-spacing: 1px; }
 
 /*# sourceMappingURL=index.css.map */
