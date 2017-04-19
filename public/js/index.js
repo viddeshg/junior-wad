@@ -9,6 +9,7 @@ jQuery(document).ready(function ($) {
   });
 
     $('.modal').modal();
-  
+    $('.scrollspy').scrollSpy();
+    $(".button-collapse").sideNav();
 });
 

@@ -6,7 +6,8 @@
 <title>WAD RCOEM</title>
 
 <!-- Stylesheets -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="css/index.css" />
 
 <!-- Scripts -->
@@ -23,10 +24,14 @@
   <nav>
     <div class="nav-wrapper">
       <a href="#" class="brand-logo center"><img src="img/logo.png" style="height:50px; width:66.5px; margin-top:10px;"/></a>
-      <ul id="nav-mobile" class="left hide-on-med-and-down">
-      <!--  <li><a href="">Sass</a></li>
-        <li><a href="">Components</a></li>
-        <li><a href="">JavaScript</a></li> -->
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="left hide-on-med-and-down">
+        <li><a href="#facts">Facts</a></li>
+        <li><a href="#mom">MoM</a></li> 
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="#facts">Facts</a></li>
+        <li><a href="#mom">MoM</a></li> 
       </ul>
     </div>
   </nav>
@@ -35,8 +40,8 @@
         <br>
 <div class="container">        
 <div class="row">
-<div id="facts" class="col m6 s12"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc3Pj_binkKbMpDOfB2Z81MdKmj3qK7EvTe26T8APJ-3ntxXw/viewform?embedded=true"  height="660px" frameborder="0" marginheight="0" width="100%" marginwidth="0">Loading...</iframe></div>
-<div id="mom" class="col m6 s12"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdJyLel3_fusac0_liaovvg6vwi7mBMsfNKtPZQ5m-MUtu0hQ/viewform?embedded=true" height="660px" frameborder="0" marginheight="0" width="100%" marginwidth="0">Loading...</iframe></div>
+<div id="facts" class="col m6 s12 scrollspy"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc3Pj_binkKbMpDOfB2Z81MdKmj3qK7EvTe26T8APJ-3ntxXw/viewform?embedded=true"  height="660px" frameborder="0" marginheight="0" width="100%" marginwidth="0">Loading...</iframe></div>
+<div id="mom" class="col m6 s12 scrollspy"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdJyLel3_fusac0_liaovvg6vwi7mBMsfNKtPZQ5m-MUtu0hQ/viewform?embedded=true" height="660px" frameborder="0" marginheight="0" width="100%" marginwidth="0">Loading...</iframe></div>
 </div>
 </div>
 
@@ -46,8 +51,7 @@
 
           <div class="footer-copyright">
             <div class="container">
-            <div class="right">Developed by <a href="https://www.fb.com/viddeshg">Viddesh</a></div>
-            <div class="left">&copy; 2017 WAD RCOEM</div>
+            <div class="center">&copy; 2017 WAD RCOEM, All rights reserved</div>
             </div>
           </div>
         </footer>

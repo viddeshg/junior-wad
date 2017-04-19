@@ -17,12 +17,7 @@ footer {
     color: white;
     letter-spacing: 1px; }
 
-.modal .modal-content {
-  padding: 0;
-  height: 125%; }
-  .modal .modal-content .row {
-    margin-bottom: 0; }
-    .modal .modal-content .row .m12 {
-      padding: 0; }
+#sidenav-overlay {
+  z-index: 1; }
 
 /*# sourceMappingURL=index.css.map */
