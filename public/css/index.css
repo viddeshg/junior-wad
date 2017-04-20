@@ -22,4 +22,7 @@ footer {
 #sidenav-overlay {
   z-index: 1; }
 
+.forms .row .col {
+  margin-bottom: 30px; }
+
 /*# sourceMappingURL=index.css.map */
