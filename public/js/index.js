@@ -20,7 +20,6 @@ jQuery(document).ready(function ($) {
     }
   );
 
-  var disclaimer = $('.freebirdFormviewerViewFooterDisclaimer');
-  disclaimer.remove();
+  $('.freebirdFormviewerViewFooterDisclaimer').css('display','none');
 });
 
