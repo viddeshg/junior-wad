@@ -9,14 +9,19 @@ nav {
   nav ul a {
     font-family: 'Julius Sans One'; }
 
+.page-footer {
+  padding-top: 0; }
+
 footer {
   background-color: #673AB7 !important;
   bottom: 0 !important;
-  width: 100%;
-  padding-top: 5px !important; }
+  width: 100%; }
   footer a {
     color: white;
     letter-spacing: 1px; }
+
+.dropdown-content a {
+  color: #673AB7 !important; }
 
 #sidenav-overlay {
   z-index: 1; }

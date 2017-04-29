@@ -16,7 +16,10 @@ nav {
         }
     }
 }
-
+.page-footer
+{
+    padding-top:0;
+}
 footer {
     background-color: #673AB7 !important;
     bottom: 0 !important;
@@ -26,6 +29,13 @@ footer {
     {
         color: white;
         letter-spacing:1px;
+    }
+}
+
+.dropdown-content
+{
+    a{
+        color: #673AB7 !important;
     }
 }
 

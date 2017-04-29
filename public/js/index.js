@@ -19,7 +19,8 @@ jQuery(document).ready(function ($) {
       draggable: true // Choose whether you can drag to open on touch screens
     }
   );
-
-  $('.freebirdFormviewerViewFooterDisclaimer').css('display','none');
+  $('.tap-target').tapTarget('open');
+  $('.tap-target').tapTarget('close');
+  $('.modal').modal();
 });
 
