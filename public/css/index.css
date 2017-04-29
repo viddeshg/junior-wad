@@ -23,6 +23,9 @@ footer {
 .dropdown-content a {
   color: #673AB7 !important; }
 
+.collapsible-body ul li a {
+  color: #673AB7 !important; }
+
 #sidenav-overlay {
   z-index: 1; }
 

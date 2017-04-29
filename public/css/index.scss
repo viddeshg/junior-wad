@@ -20,6 +20,7 @@ nav {
 {
     padding-top:0;
 }
+
 footer {
     background-color: #673AB7 !important;
     bottom: 0 !important;
@@ -36,6 +37,21 @@ footer {
 {
     a{
         color: #673AB7 !important;
+    }
+}
+
+.collapsible-body
+{
+    ul
+    {
+        li
+        {
+            a
+            {
+                     color: #673AB7 !important;
+   
+            }
+        }
     }
 }
 
