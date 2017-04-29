@@ -22,5 +22,6 @@ jQuery(document).ready(function ($) {
   $('.tap-target').tapTarget('open');
   $('.tap-target').tapTarget('close');
   $('.modal').modal();
+
 });
 
